@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Alexandre
+Build-Jdk: 1.7.0
+Class-Path: lib/tools-1.6.jar lib/ojdbc-6.jar lib/commons-email-1.1.ja
+ r lib/activation-1.1.jar lib/log4j-1.2.8.jar lib/mail-1.4.2.jar lib/i
+ text-xtra-5.1.2.jar lib/itextpdf-5.1.2.jar lib/jflex-1.4.1.jar lib/jx
+ l-2.6.12.jar lib/javaee-api-6.0.jar
+Main-Class: br.com.cafebinario.main.Principal
+Created-By: Maven Integration for Eclipse
+
