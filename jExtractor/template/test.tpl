@@ -2,13 +2,20 @@ ${header}
 date        ${date,28,MyDateFormat()}
 --------------------------------------  
 ${content}
-            page        ${page,16}
-              id        ${id,16}
-         id_rede        ${id_rede,16}
-         id_area        ${id_area,16}
-        id_local        ${id_local,16}
-     valor_total        ${valor_total,16}
-      valor_pago        ${valor_pago,16}
+             CODIGO EC       ${CODIGO,16}
+          RAZAO_SOCIAL       ${RAZAO_SOCIAL,16}
+         NOME_FANTASIA       ${NOME_FANTASIA,16}
+                  CNPJ       ${CNPJ,16}
+            TECNOLOGIA       ${TECNOLOGIA,16}
+          REDE_CAPTURA       ${REDE_CAPTURA,16}
+             AFILIACAO       ${AFILIACAO,16}
 ========================================
 ${footer}
-powed by CaféBinario                    
+powed by HP                    
+
+
+
+
+
+
+

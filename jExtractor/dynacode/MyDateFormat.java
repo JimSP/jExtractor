@@ -1,14 +1,15 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import br.com.cafebinario.formatter.FormatterFieldImpl;
 
 public class MyDateFormat extends FormatterFieldImpl {
 
 	public String execute(Long timeStamp){
-		System.out.println("DYNAMIC FORMATTER=" + timeStamp);
-		return "00-00-00 00:00:00";
+		return new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new Date(timeStamp));
 	}
 
 	public String execute(Long timeStamp, String... values){
-		System.out.println("DYNAMIC FORMATTER=" + timeStamp + "," + values);
-		return "00-00-00 00:00:00";
+		return new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new Date(timeStamp));
 	}
 }
